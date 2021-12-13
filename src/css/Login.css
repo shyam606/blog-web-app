@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.login form{
+    width: 50%;
+    border:1px solid #ab2b55;
+    margin-top:21px;
+}
+.login{
+    /* border: 1px solid red; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 150px auto;
+
+}
+.login h2{
+    color: #e14848;
+}
+.login input{
+    display: block;
+    width: 72%;
+    padding: 7px 1px;
+    margin: 16px 39px;
+    font-size: 1rem;
+    font-weight: 600;
+    outline: none;
+}
+.login input:nth-child(1){
+    margin-top: 39px;
+}
+.log_btn{
+    margin-top:10px !important;
+    margin-bottom:12px !important;
+    margin-left: 43px !important;
+    border: 1px solid #8b1515 !important;
+    font-weight: 600 !important;
+    padding: 6px 25px !important;
+}
+.log_btn:hover{
+    background-color: #e0afaf!important;
+}

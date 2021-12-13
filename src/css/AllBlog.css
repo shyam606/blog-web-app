@@ -1,0 +1,19 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+h1{
+    margin: 24px 0px;
+    text-align: center;
+}
+.all_blog{
+    margin:21px 25px;
+}
+.all_blog h2{
+    color:#d43636
+}
+.all_blog a{
+    font-size: 1rem;
+    color:#380707
+}
